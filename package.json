@@ -8,6 +8,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "start": "node server.js",
+    "gh-pages": "gatsby build --prefix-paths && gh-pages -d public",
     "lint": "node_modules/.bin/eslint src --fix",
     "dev": "shx --silent rm -rd public || true && gatsby develop",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
