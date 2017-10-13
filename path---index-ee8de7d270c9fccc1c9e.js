@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{233:function(e,a){e.exports={data:{allDataJson:{edges:[{node:{news:[{id:1,title:"News 1",summary:"News Summary 1"},{id:2,title:"News 2",summary:"News Summary 2"}]}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-ee8de7d270c9fccc1c9e.js.map
