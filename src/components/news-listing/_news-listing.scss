@@ -1,0 +1,10 @@
+.news-listing {
+    background-color: #f4f4f4;
+    padding-bottom : 72px;
+    &-title{
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

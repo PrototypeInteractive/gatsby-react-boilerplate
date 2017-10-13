@@ -1,0 +1,40 @@
+/* ==========================================================================
+	Directions
+/* ========================================================================== */
+
+$start: left;
+$end: right;
+$margin-start: margin-left;
+$margin-end: margin-right;
+
+
+/* ==========================================================================
+	Variables
+/* ========================================================================== */
+
+
+/* Colors */
+
+$color_main: #f04e30;
+$color_border: #e3e3e3;
+$color_text: #505457;
+$color_light_text: #7f8a8e;
+$color_dark_text: #494d51;
+
+/* Font Sizes */
+
+$size_base: 1em;
+
+
+/* ==========================================================================
+	Responsive
+/* ========================================================================== */
+
+$phone-min-size: 320px;
+$phone-max-size: 767px;
+$tablet-min-size: 768px;
+$tablet-max-size: 991px;
+$laptop-min-size: 992px;
+$laptop-max-size: 1279px;
+$desktop-min-size: 1280px;
+$desktop-max-size: 2520px;
