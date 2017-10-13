@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "./_header.scss";
+import './_header.scss';
 
 const Header = () =>
-  <header className="header">
+  (<header className="header">
     <div className="container">
       <div className="row">
         <div className="col-12">
@@ -25,6 +25,6 @@ const Header = () =>
         </div>
       </div>
     </div>
-  </header>;
+  </header>);
 
 export default Header;

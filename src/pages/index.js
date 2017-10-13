@@ -1,10 +1,12 @@
-import React from "react";
-import NewsListing from "../components/news-listing";
+/* global graphql */
+
+import React from 'react';
+import NewsListing from '../components/news-listing';
 
 const IndexPage = props =>
-  <div>
+  (<div>
     <NewsListing news={props.data.allDataJson.edges[0].node.news} />
-  </div>;
+  </div>);
 
 export default IndexPage;
 
