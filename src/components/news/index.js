@@ -10,7 +10,7 @@ const News = (props) => {
       <div className="news-summary">
         {props.item.summary}
       </div>
-      <Button className="button-orange" link={props.item.link} text='Read More' />
+      <Button className="button-orange" link="#" text='Read More' />
     </div>
   )
 }

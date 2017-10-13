@@ -11,19 +11,16 @@ const Header = () =>
             <a href="/" className="header-logo">
               Logo
             </a>
-
-            <div className="header-nav">
-              <nav className="header-nav">
-                <ul className="nav-list">
-                  <li className="nav-list-item">
-                    <a href="/">Home</a>
-                  </li>
-                  <li className="nav-list-item">
-                    <a href="/">About</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
+            <nav className="header-nav">
+              <ul className="header-nav-list">
+                <li className="header-nav-list-item">
+                  <a href="/">Home</a>
+                </li>
+                <li className="header-nav-list-item">
+                  <a href="/">About</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>

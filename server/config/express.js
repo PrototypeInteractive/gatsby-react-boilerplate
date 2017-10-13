@@ -5,8 +5,6 @@ var express = require('express');
 var serveStatic = require('serve-static');
 var compression = require('compression');
 var helmet = require('helmet');
-var auth = require('basic-auth');
-
 
 module.exports = function(app) {
 
@@ -16,21 +14,6 @@ module.exports = function(app) {
   }));
 
   app.use(compression());
-
-  if (process.env.NODE_ENV !== 'production') {
-    var username = process.env.AUTH_USER || 'prototype';
-    var password = process.env.AUTH_PASS || 'prototype';
-    app.use(function(req, res, next) {
-      var user = auth(req);
-      if (user === undefined || user['name'] !== username || user['pass'] !== password) {
-        res.statusCode = 401;
-        res.setHeader('WWW-Authenticate', 'Basic realm="prototype"');
-        res.end('Unauthorized');
-      } else {
-        next();
-      }
-    });
-  }
 
   app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
