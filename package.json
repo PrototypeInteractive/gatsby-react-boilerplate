@@ -17,7 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "basic-auth": "^2.0.0",
-    "bootstrap": "^4.0.0-beta",
     "compression": "^1.7.1",
     "debug": "^3.1.0",
     "express": "^4.16.2",
@@ -26,6 +25,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.5",
+    "bootstrap": "^4.0.0-beta",
     "cross-env": "^5.0.5",
     "eslint": "^4.7.2",
     "eslint-config-airbnb": "^15.1.0",
