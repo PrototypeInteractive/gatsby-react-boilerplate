@@ -3,18 +3,22 @@
 ### Requirements
 
 *   [Node.js](http://nodejs.org): for all the magic
+*  [Gatsby](https://www.gatsbyjs.org/docs/)
 
-### What's included
+### Features
 
-*   [Bootstrap](http://getbootstrap.com/): Bootstrap's normalize, grid system, and utility classes are imported by default.
-*   [SVG sprites](https://css-tricks.com/svg-sprites-use-better-icon-fonts/): Add your icons in `components/icon` as .icon files and use them.
-*	Server: Node.js code for easy, gzipped, and secure static website hosting.
+* Basic configuration and folder structure
+* Uses postcss and sass (with autoprefixer and pixrem)
+* Uses [Bootstrap 4](http://getbootstrap.com/) grid
+* Leaves the styling to you
+* Uses data from local json files
+* Contains Node.js server code for easy, secure, and fast hosting
+* [SVG sprites](https://css-tricks.com/svg-sprites-use-better-icon-fonts/): Add your icons in `components/icon` as .icon files and use them.
 
 ### How to proceed
 
 1.  Prepare a coffee
 1.  Run: `npm i` to install the dependencies
-1.  [Install Gatsby](https://www.gatsbyjs.org/docs/)
 1.  Start coding!
 
 
