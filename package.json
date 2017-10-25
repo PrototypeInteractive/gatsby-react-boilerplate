@@ -24,7 +24,7 @@
     "serve-static": "^1.13.1"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.5",
+    "autoprefixer": "^7.1.6",
     "bootstrap": "^4.0.0-beta.2",
     "cross-env": "^5.1.0",
     "eslint": "^4.9.0",
@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
-    "gatsby": "^1.9.76",
+    "gatsby": "^1.9.77",
     "gatsby-link": "^1.6.23",
     "gatsby-plugin-google-analytics": "^1.0.10",
     "gatsby-plugin-postcss-sass": "latest",
@@ -43,7 +43,7 @@
     "gh-pages": "^1.0.0",
     "pixrem": "^4.0.1",
     "shx": "^0.2.2",
-    "svg-sprite-loader": "^3.4.0"
+    "svg-sprite-loader": "^3.4.1"
   },
   "repository": {
     "type": "git",
