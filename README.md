@@ -23,6 +23,9 @@
 1.  You should see shortly some text that says `The development server is listening at: http://localhost:8000`. Open that address in your browser and…
 1.  Start coding!
 
+### How to build
+
+1.  Run: `npm run build` to build website into `/public` folder
 
 ### Considerations
 
