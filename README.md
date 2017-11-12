@@ -19,6 +19,8 @@
 
 1.  Prepare a coffee
 1.  Run: `npm i` to install the dependencies
+1.  Run: `gatsby develop` to run Gatsby
+1.  You should see shortly some text that says `The development server is listening at: http://localhost:8000`. Open that address in your browser and…
 1.  Start coding!
 
 
