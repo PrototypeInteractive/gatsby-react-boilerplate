@@ -1,12 +1,14 @@
 /* global graphql */
 
 import React from 'react';
-import NewsListing from '../components/news-listing';
+import Features from '../components/features';
+import HowTo from '../components/how-to';
 
 const IndexPage = props =>
-  (<div>
-    <NewsListing news={props.data.allDataJson.edges[0].node.news} />
-  </div>);
+  (<main>
+    <Features data={props.data.allDataJson.edges[0].node.features} />
+    <HowTo data={props.data.allDataJson.edges[0].node.howTo} />
+  </main>);
 
 export default IndexPage;
 
@@ -15,10 +17,11 @@ export const pageQuery = graphql`
     allDataJson {
       edges {
         node {
-          news {
-            id
+          features {
             title
-            summary
+          }
+          howTo {
+            title
           }
         }
       }

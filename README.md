@@ -2,7 +2,7 @@
 
 ### Requirements
 
-*   [Node.js](http://nodejs.org): for all the magic
+*  [Node.js](http://nodejs.org): for all the magic
 *  [Gatsby](https://www.gatsbyjs.org/docs/)
 
 ### Features
