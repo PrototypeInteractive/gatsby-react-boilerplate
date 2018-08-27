@@ -1,7 +1,7 @@
 "use strict";
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  var svgFiles = /\.svgo$/;
+  var svgFiles = /\.icon$/;
   var svgLoader = `svg-sprite-loader`;
 
   switch (stage) {
