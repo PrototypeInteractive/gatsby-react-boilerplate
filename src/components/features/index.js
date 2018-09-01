@@ -2,7 +2,7 @@ import React from 'react';
 
 import './_features.scss';
 
-const NewsListing = props =>
+const FeaturesListing = props =>
   (<section className="features" id="features">
     <div className="container">
       <div className="row">
@@ -24,4 +24,4 @@ const NewsListing = props =>
     </div>
   </section>);
 
-export default NewsListing;
+export default FeaturesListing;

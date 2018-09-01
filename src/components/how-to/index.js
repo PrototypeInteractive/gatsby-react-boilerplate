@@ -2,7 +2,7 @@ import React from 'react';
 
 import './_how-to.scss';
 
-const NewsListing = props =>
+const HowtoListing = props =>
   (<section className="howto" id="howto">
     <div className="container">
       <div className="row">
@@ -24,4 +24,4 @@ const NewsListing = props =>
     </div>
   </section>);
 
-export default NewsListing;
+export default HowtoListing;
