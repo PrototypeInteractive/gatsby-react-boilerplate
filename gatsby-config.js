@@ -3,7 +3,6 @@ module.exports = {
     title: `Gatsby Default Starter`,
   },
   plugins: [
-    `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,
     `svgo`,
     `gatsby-plugin-sass`,
