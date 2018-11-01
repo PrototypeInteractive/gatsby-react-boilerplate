@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./_button.scss";
+import "./button.scss";
 
 const Button = props => (
   <a href={props.link} className={`button ${props.className}`}>
