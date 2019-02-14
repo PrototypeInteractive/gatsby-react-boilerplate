@@ -25,7 +25,7 @@
     "serve-static": "^1.13.2"
   },
   "devDependencies": {
-    "@prototype-interactive/eslint-config": "^0.1.0",
+    "@prototype-interactive/eslint-config": "^0.1.1",
     "autoprefixer": "^9.4.4",
     "bootstrap": "^4.2.1",
     "cross-env": "^5.2.0",
