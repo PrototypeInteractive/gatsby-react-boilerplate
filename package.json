@@ -9,7 +9,7 @@
     "serve": "gatsby serve",
     "start": "node server.js",
     "gh-pages": "gatsby build --prefix-paths && gh-pages -d public",
-    "lint": "node_modules/.bin/eslint src --fix",
+    "lint": "eslint src --fix",
     "dev": "(shx --silent rm -rf public || shx true) && gatsby develop",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
   },
@@ -25,14 +25,11 @@
     "serve-static": "^1.13.2"
   },
   "devDependencies": {
+    "@prototype-interactive/eslint-config": "^0.1.0",
     "autoprefixer": "^9.4.4",
     "bootstrap": "^4.2.1",
     "cross-env": "^5.2.0",
     "eslint": "^5.12.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.12.3",
     "gatsby": "^2.0.115",
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-postcss": "^2.0.2",
