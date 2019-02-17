@@ -1,16 +1,12 @@
 {
-    "extends": "airbnb",
-    "rules":
-    {
-        "react/jsx-filename-extension": "off",
-        "react/prop-types": "off",
-        "react/require-default-props": "off",
-        "jsx-a11y/href-no-hash": "off",
-        "class-methods-use-this": "off",
-        "import/no-extraneous-dependencies": "off",
-        "jsx-a11y/anchor-is-valid": ["warn",
-        {
-            "aspects": ["invalidHref"]
-        }]
-    }
+    "root": true,
+    "extends": [
+        "@prototype-interactive/eslint-config/es9",
+        "@prototype-interactive/eslint-config/addons/babel-parser",
+        "@prototype-interactive/eslint-config/addons/browser",
+        "@prototype-interactive/eslint-config/addons/node",
+        "@prototype-interactive/eslint-config/addons/es-modules",
+        "@prototype-interactive/eslint-config/addons/react",
+        "@prototype-interactive/eslint-config/addons/jest"
+    ]
 }
